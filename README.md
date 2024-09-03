@@ -15,7 +15,8 @@ Ceci est l'application frontend pour le système de gestion de parking, construi
 - **TypeScript** : Sur-ensemble de JavaScript qui ajoute le typage statique.
 - **TailwindCSS** : Framework CSS basé sur des utilitaires.
 - **Vite** : Outil de build rapide et serveur de développement.
-- **Jest** : Framework de tests pour JavaScript.
+- **Jest** : Framework de tests pour JavaScript utilisé pour le tunnel CI.
+- **Docker** : Lancement facilité pour la production
 
 ## Configuration du projet en local
 
