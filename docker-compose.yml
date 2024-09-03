@@ -1,0 +1,10 @@
+services:
+  vue-app:
+    build: .
+    ports:
+      - "5173:80"
+    networks:
+      - frontend
+
+networks:
+  frontend:
