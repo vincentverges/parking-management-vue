@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
 import ParkingList from "../components/ParkingList.vue";
 
 const routes = [
@@ -7,11 +7,11 @@ const routes = [
         name: 'ParkingList',
         component: ParkingList
     }
-]
+];
 
 const router = createRouter({
     history: createWebHistory(),
     routes
-})
+});
 
-export default router
+export default router;

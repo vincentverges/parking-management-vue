@@ -1,5 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# Front-end Parking Management
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Application de gestion de parking
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+### Features disponibles
+- Obtenir un ticket de parking avec le numéro de la place
+- Quitter le parking et libérer la place
+- Récupérer toutes les places libres et occupées, avec leur numéro
+
+
+## Installation
+
+**Requierments**
+
+Docker doit être installé sur votre ordinateur
+
+### Cloner le projet
+
+```
+git clone https://github.com/vincentverges/parking-management-vue.git
+```
+
+### Installation de l'application
+
+Lancement des containers :
+```
+cd parking_management-vue
+docker compose up -d --build
+```

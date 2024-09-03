@@ -2,10 +2,10 @@
   import { onMounted } from "vue";
   import {useParkingStore} from "../store/parkingStore.ts";
 
-  const parkingStore = useParkingStore()
+  const parkingStore = useParkingStore();
 
   onMounted(() => {
-    parkingStore.fetchParkingSpots()
+    parkingStore.fetchParkingSpots();
   })
 </script>
 
